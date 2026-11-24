@@ -2,7 +2,7 @@
   "openapi": "3.0.3",
   "info": {
     "title": "SocialConnect API",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "description": "Fictional socialconnect demonstration. No real customer data."
   },
   "paths": {
@@ -49,7 +49,7 @@
                 "properties": {
                   "name": {
                     "type": "string",
-                    "maxLength": 120
+                    "maxLength": 48
                   },
                   "reference": {
                     "type": "string"
@@ -119,7 +119,7 @@
                 "properties": {
                   "name": {
                     "type": "string",
-                    "maxLength": 120
+                    "maxLength": 48
                   },
                   "reference": {
                     "type": "string"
